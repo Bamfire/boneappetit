@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dogbeach"
+
+    tools:context="MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:src="@drawable/dogicon"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/Company_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bone Appétit"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="60sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginBottom="5dp"
+        android:text="Ocean Beach Pet Supply"
+        android:textColor="#ffffff"
+        android:paddingLeft="16dp"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/Phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="619-226-6250"
+        android:paddingLeft="16dp"
+        android:textSize="15sp"
+        android:textColor="#ffffff"
+        />
+
+
+    <TextView
+        android:id="@+id/Address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:text="1785 Sunset Cliffs Blvd. San Diego, CA 92107 "
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        />
+
+</LinearLayout>
